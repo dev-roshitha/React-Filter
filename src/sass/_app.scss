@@ -1,0 +1,38 @@
+.app{
+  display: flex;
+  justify-content: center;
+  .item-wrapper{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .search{
+      padding: 10px;
+      font-size: 20px;
+    }
+    .list{
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      .list-item{
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: #444;
+        font-weight: 300;
+      }
+    }
+  }
+  @include tablet-portrait{
+  }
+
+  @include tablet-landscape{
+  }
+
+  @include desktop{
+  }
+
+  @include wide-desktop{
+  }
+}
