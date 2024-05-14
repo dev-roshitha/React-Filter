@@ -1,0 +1,74 @@
+$mobile-base-width: 375px;
+$mobile-landscape-width: 414px;
+$mobile-landscape-end-width: 812px;
+$tablet-portrait-width: 768px;
+$tablet-landscape-width: 992px;
+$desktop-small-width: 1024px;
+$desktop-width: 1200px;
+$desktop-wide-width: 1440px;
+$desktop-large-width: 1600px;
+$desktop-extra-large-width: 1920px;
+
+// Media query mixins - Mobile Landscape - 414px to up
+@mixin mobile-landscape {
+  @media (min-width: #{$mobile-landscape-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - Tablet Portrait - 768px to up
+@mixin tablet-portrait {
+  @media (min-width: #{$tablet-portrait-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - Tablet Landscape - 992px to up
+@mixin tablet-landscape {
+  @media (min-width: #{$tablet-landscape-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - Small Desktop - 1024px to up
+@mixin small-desktop {
+  @media (min-width: #{$desktop-small-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - Desktop - 1200px to up
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - Wide Desktop - 1440px to up
+@mixin wide-desktop {
+  @media (min-width: #{$desktop-wide-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - Wide Desktop - 1600px to up
+@mixin large-desktop {
+  @media (min-width: #{$desktop-large-width}) {
+    @content;
+  }
+}
+
+// Media query mixins - extra Wide Desktop - 1920px to up
+@mixin extra-large-desktop {
+  @media (min-width: #{$desktop-extra-large-width}) {
+    @content;
+  }
+}
+
+@mixin reset-button {
+  background: none;
+  border-radius: 0px;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
