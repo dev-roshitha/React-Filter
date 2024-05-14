@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .app{
   display: flex;
   justify-content: center;
@@ -21,6 +23,25 @@
         font-size: 25px;
         color: #444;
         font-weight: 300;
+      }
+    }
+    table{
+      font-family: "Montserrat", sans-serif;
+      margin-top: 50px;
+      width: 50vw;
+      border: 1px solid #000;
+      tbody{
+        tr{
+          th{
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid #000;
+          }
+          text-align: center;
+          td{
+            padding: 5px;
+          }
+        }
       }
     }
   }

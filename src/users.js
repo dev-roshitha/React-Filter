@@ -43,7 +43,7 @@ export const Users = [
   },
   {
     "id": 7,
-    "first_name": "jolie",
+    "first_name": "Jolie",
     "last_name": "cader",
     "email": "jolie@gmail.com",
     "gender": "female",
